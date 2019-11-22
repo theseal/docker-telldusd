@@ -4,11 +4,11 @@
 
 set -e
 
-if [ -f /tmp/TelldusClient ]; then
+if [ -e /tmp/TelldusClient ]; then
     rm /tmp/TelldusClient
 fi
 
-if [ -f /tmp/TelldusEvents ]; then
+if [ -e /tmp/TelldusEvents ]; then
     rm /tmp/TelldusEvents
 fi
 
